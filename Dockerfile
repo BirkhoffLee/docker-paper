@@ -6,8 +6,6 @@ WORKDIR /data
 ADD "${PAPER_URL}" /srv/paper.jar
 RUN cd /srv && \
 	java -jar paper.jar --version && \
-    mv cache/patched*.jar paper.jar && \
-	rm -rf cache && \
 	chmod 444 /srv/paper.jar && \
     echo "eula=true" > /data/eula.txt
 
