@@ -1,4 +1,4 @@
-FROM nimmis/java:openjdk-8-jre
+FROM openjdk:8-jre
 
 ARG PAPER_URL=https://ci.destroystokyo.com/job/PaperSpigot/lastSuccessfulBuild/artifact/paperclip.jar
 
