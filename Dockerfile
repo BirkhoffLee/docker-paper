@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM java:8u111-jre-alpine
 
 ARG PAPER_URL=https://ci.destroystokyo.com/job/PaperSpigot/lastSuccessfulBuild/artifact/paperclip.jar
 
