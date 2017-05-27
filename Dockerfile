@@ -5,8 +5,8 @@ ARG PAPER_URL=https://ci.destroystokyo.com/job/PaperSpigot/lastSuccessfulBuild/a
 WORKDIR /data
 ADD "${PAPER_URL}" /srv/paper.jar
 RUN cd /srv && \
-	java -jar paper.jar --version && \
-	chmod 444 /srv/paper.jar && \
+    java -jar paper.jar --version && \
+    chmod 444 /srv/paper.jar && \
     echo "eula=true" > /data/eula.txt
 
 ADD runPaper.sh /usr/local/bin/paper
