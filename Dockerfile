@@ -12,7 +12,7 @@ RUN cd /srv && \
 ADD runPaper.sh /usr/local/bin/paper
 RUN chmod +x /usr/local/bin/paper
 
-ENV JAVA_ARGS "-Xmx1G"
+ENV JAVA_ARGS ""
 ENV SPIGOT_ARGS ""
 ENV PAPER_ARGS ""
 
