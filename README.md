@@ -1,4 +1,4 @@
-# docker-paper [![](https://images.microbadger.com/badges/image/minemystery/docker-paper.svg)](https://microbadger.com/images/minemystery/docker-paper)
+# docker-paper
 Our Docker image for running a PaperSpigot instance.
 
 # Usage
