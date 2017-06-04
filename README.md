@@ -1,4 +1,4 @@
-# docker_paper
+# docker-paper
 Our Docker image for running a PaperSpigot instance.
 
 # Usage
