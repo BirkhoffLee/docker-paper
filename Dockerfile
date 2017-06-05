@@ -1,5 +1,7 @@
 FROM openjdk:8-jre
 
+# 1.11.2: latest build
+
 ARG PAPER_URL=https://ci.destroystokyo.com/job/PaperSpigot/lastSuccessfulBuild/artifact/paperclip.jar
 
 WORKDIR /data
