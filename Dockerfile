@@ -1,8 +1,8 @@
 FROM openjdk:8-jre
 
-# 1.10.2: build 916
+# 1.9.4: build 773
 
-ARG PAPER_URL=https://ci.destroystokyo.com/job/PaperSpigot/916/artifact/paperclip.jar
+ARG PAPER_URL=https://ci.destroystokyo.com/job/PaperSpigot/773/artifact/paperclip.jar
 
 WORKDIR /data
 ADD "${PAPER_URL}" /srv/paper.jar
