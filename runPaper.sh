@@ -1,2 +1,2 @@
 #!/bin/sh
-exec java -jar $JAVA_ARGS /srv/paper.jar $PAPER_ARGS $SPIGOT_ARGS
+exec java $JAVA_ARGS -jar /srv/paper.jar $PAPER_ARGS $SPIGOT_ARGS
