@@ -1,6 +1,8 @@
 # docker-paper
 Our Docker image for running a PaperSpigot instance.
 
+**This repository is no longer being updated; I'm moving this to a private repository. I didn't delete this repository because I hope it can help someone else.**
+
 # Tags
 `1.11.2`: **master** branch (this branch)  
 `1.10.2`: **1.10.2** branch  
