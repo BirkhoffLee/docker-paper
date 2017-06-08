@@ -1,5 +1,5 @@
 # docker-paper
-Our Docker image for running a PaperSpigot instance.
+My Docker image for running a PaperSpigot instance.
 
 **This repository is no longer being updated; I'm moving this to a private repository. I didn't delete this repository because I hope it can help someone else.**
 
